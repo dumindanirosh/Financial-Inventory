@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.0.3" transformSequenceNumber="1">
+  <directoryPresets config="D:/Sotware Development/Desktop/Commercial/Financial&amp;Inventory/src/images" />
+  <application name="EZ sHOP" distributionSourceDir="D:/Sotware Development/Desktop/Commercial/Financial&amp;Inventory">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="EZShop2.0" type="1" iconSet="true" iconFile="D:/Sotware Development/Desktop/Commercial/Financial&amp;Inventory/src/images/wi0064-64.ico" executableDir="./setup" redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" amd64="false">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="com.esd.ui.LoginDialog" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="" minVersion="1.4" maxVersion="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="./dist/Financial_Inventory.jar" failOnError="false" />
+      <archive location="./dist/lib/beansbinding-1.2.1.jar" failOnError="false" />
+      <archive location="./dist/lib/commons-beanutils-1.7.jar" failOnError="false" />
+      <archive location="./dist/lib/commons-collections-2.1.jar" failOnError="false" />
+      <archive location="./dist/lib/commons-digester-1.7.jar" failOnError="false" />
+      <archive location="./dist/lib/commons-javaflow-20060411.jar" failOnError="false" />
+      <archive location="./dist/lib/commons-logging-1.0.2.jar" failOnError="false" />
+      <archive location="./dist/lib/commons-logging-api-1.0.2.jar" failOnError="false" />
+      <archive location="./dist/lib/DateChooser.jar" failOnError="false" />
+      <archive location="./dist/lib/jasper.jar" failOnError="false" />
+      <archive location="./dist/lib/jasperreports-2.0.4.jar" failOnError="false" />
+      <archive location="./dist/lib/javax.persistence.jar" failOnError="false" />
+      <archive location="./dist/lib/jcalendar-1.3.2.jar" failOnError="false" />
+      <archive location="./dist/lib/jdt-compiler-3.1.1.jar" failOnError="false" />
+      <archive location="./dist/lib/jfreechart-1.0.0.jar" failOnError="false" />
+      <archive location="./dist/lib/log4j-1.2.14.jar" failOnError="false" />
+      <archive location="./dist/lib/mysql-connector-java-5.1.6-bin.jar" failOnError="false" />
+      <archive location="./dist/lib/org.eclipse.persistence.antlr.jar" failOnError="false" />
+      <archive location="./dist/lib/org.eclipse.persistence.asm.jar" failOnError="false" />
+      <archive location="./dist/lib/org.eclipse.persistence.core.jar" failOnError="false" />
+      <archive location="./dist/lib/org.eclipse.persistence.jpa.jar" failOnError="false" />
+      <archive location="./dist/lib/org.eclipse.persistence.oracle.jar" failOnError="false" />
+      <archive location="./dist/lib/swing-layout-1.0.3.jar" failOnError="false" />
+      <archive location="./dist/lib/synthetica.jar" failOnError="false" />
+      <archive location="./dist/lib/syntheticaBlackMoon.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+
