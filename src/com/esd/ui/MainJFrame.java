@@ -622,7 +622,6 @@ public class MainJFrame extends javax.swing.JFrame {
         editSalesRefDeleteBtn = new javax.swing.JButton();
         editSalesRefCB = new javax.swing.JComboBox();
         displayStatusBtn = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         userAccountsMI = new javax.swing.JMenu();
@@ -4612,13 +4611,6 @@ public class MainJFrame extends javax.swing.JFrame {
         jDesktopPane1.add(salesRefIF);
         salesRefIF.setBounds(0, 0, 1160, 560);
 
-        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/banner2.jpg"))); // NOI18N
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
-            }
-        });
-
         jMenu1.setText("File");
 
         userAccountsMI.setText("User Accounts");
@@ -4987,9 +4979,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(32, 32, 32)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(43, 43, 43)
-                        .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 861, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(41, 41, 41)
                         .addComponent(jDesktopPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1159, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -5005,13 +4995,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jDesktopPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 564, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
-                        .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -8790,11 +8775,7 @@ public class MainJFrame extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_editDeleteSupplierCodeCbItemStateChanged
-    
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton22ActionPerformed
-    
+        
     private void deleteSupplierBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteSupplierBtnActionPerformed
         
         
@@ -9289,7 +9270,6 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
