@@ -63,11 +63,11 @@ public interface Constants {
     String SUPPLIER_NOT_EXIST = "suppliernotexist";
     String SUPPLIER_UPDATED_SUCCESSFULLY = "supplierupdatedsuccessfully";
     String SUPPLIER_DELETED_SUCCESSFULLY = "supplierdeletedsuccessfully";
-    String COMPANY_NAME = "In & Out";
-    String COMPANY_ADDRESS = "421/A , Galle Road Mount Lavinia";
-    String EMAIL_ADDRESS = "inandout@sltnet.lk";
-    String MOBILE_NUMBER = "0714 278 673";
-    String OFFICE_NUMBER = "0112 722 188";
+    String COMPANY_NAME = "";
+    String COMPANY_ADDRESS = "";
+    String EMAIL_ADDRESS = "";
+    String MOBILE_NUMBER = "";
+    String OFFICE_NUMBER = "";
     String SALES_REF_ADDED_SUCCESSFULLY = "salesrefaddedsuccessfully";
     String SALES_REF_UPDATED_SUCCESSFULLY = "salesrefupdatedsuccessfully";
     String SALES_REF_DELETED_SUCCESSFULLY = "salesrefdeletedsuccessfully";
